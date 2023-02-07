@@ -1,0 +1,37 @@
+.landingPage {
+  box-sizing: border-box;
+  background-color: var(--K8RDarkBlue);
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  gap: 100px;
+  height: 90vh;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: end;
+}
+
+#k8rLogo {
+  width: 400px;
+}
+
+.verticalLine {
+  height: 400px;
+  border: 1px solid var(--K8RLightBlue)
+}
+
+.rightSideContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  width: 400px;
+  font-size: 1.4rem;
+}
+
+.titleSpan {
+  align-self: center;
+}

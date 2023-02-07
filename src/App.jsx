@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LandingPage from './LandingPage';
+import Header from './Header';
+import './stylesheets/app.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="mainContainer">
-      K8R TBD
-    </div>
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

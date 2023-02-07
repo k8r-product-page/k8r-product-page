@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--K8RDarkBlue);
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: end;
+  color: var(--K8RLightBlue);
+  margin: 2rem 2rem 0 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: var(--K8RLightBlue);
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.header a:hover {
+  transition: all 0.2s;
+  transform: scale(1.1);
+  color: white;
+  border-bottom: 1px solid white;
+}
