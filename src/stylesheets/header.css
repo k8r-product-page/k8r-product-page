@@ -9,11 +9,12 @@
   justify-content: end;
   color: var(--K8RLightBlue);
   margin: 2rem 2rem 0 0;
+  height: 2rem;
 }
 
 .header a {
   text-decoration: none;
-  color: var(--K8RLightBlue);
+  color: var(--GenericBackground);
   font-size: 1.5em;
   font-weight: 900;
 }
@@ -21,6 +22,6 @@
 .header a:hover {
   transition: all 0.2s;
   transform: scale(1.1);
-  color: white;
-  border-bottom: 1px solid white;
+  color: var(--K8RLightBlue);
+  border-bottom: 1px solid var(--K8RLightBlue);
 }

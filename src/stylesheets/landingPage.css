@@ -19,7 +19,7 @@
 
 .verticalLine {
   height: 400px;
-  border: 1px solid var(--K8RLightBlue)
+  border: 1px solid var(--K8RLightBlue);
 }
 
 .rightSideContainer {
@@ -29,9 +29,10 @@
   align-items: start;
   gap: 20px;
   width: 400px;
-  font-size: 1.4rem;
 }
 
-.titleSpan {
-  align-self: center;
+.tagline {
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--K8RLightBlue)
 }

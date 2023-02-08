@@ -10,8 +10,7 @@ function LandingPage() {
       </div>
       <div className="verticalLine"></div>
       <div className="rightSideContainer">
-        <span className="titleSpan">K8R</span>
-        <span>A real time Kubernetes visualizer that works for you, and not the other way around.</span>
+        <span className="tagline">A real time Kubernetes visualizer that works for you, and not the other way around.</span>
       </div>
     </div>
   )
