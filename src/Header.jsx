@@ -12,13 +12,16 @@ function Header() {
     <>
       {showContactModal ? <CreatedBy setShowContactModal={setShowContactModal} /> : null}
       <div className="header">
+        <Link to="/" className="headerButton">
+          <span>Home</span>
+        </Link>
         <Link to="https://github.com/oslabs-beta/k8r" className="headerButton">
           <span>Github</span>
         </Link>
-        <Link to="/" className="headerButton">
+        <Link to="https://github.com/oslabs-beta/k8r#readme" className="headerButton">
           <span>Documentation</span>
         </Link>
-        <Link to="/" className="headerButton">
+        <Link to="/demo" className="headerButton">
           <span>Demo</span>
         </Link>
         <Link to="/" className="headerButton" onClick={() => { setShowContactModal(true) }}>

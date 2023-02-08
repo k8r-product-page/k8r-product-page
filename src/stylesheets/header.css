@@ -1,4 +1,7 @@
 .header {
+  position: fixed;
+  top: 0;
+  right: 0;
   background-color: var(--K8RDarkBlue);
   display: flex;
   align-items: center;
